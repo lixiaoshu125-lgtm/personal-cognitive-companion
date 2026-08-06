@@ -1,0 +1,28 @@
+{
+  "name": "personal-cognitive-companion",
+  "version": "0.3.0",
+  "description": "Conversation-first cognitive companion for Obsidian",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lixiaoshu125-lgtm/personal-cognitive-companion.git"
+  },
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "build": "node esbuild.config.mjs"
+  },
+  "dependencies": {
+    "zod": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "builtin-modules": "^4.0.0",
+    "esbuild": "^0.25.0",
+    "obsidian": "^1.8.7",
+    "typescript": "~5.8.3",
+    "vitest": "^3.0.0"
+  }
+}

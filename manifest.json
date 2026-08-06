@@ -1,0 +1,9 @@
+{
+  "id": "personal-cognitive-companion",
+  "name": "深度对话",
+  "version": "0.3.0",
+  "minAppVersion": "1.8.7",
+  "description": "通过 AI 对话把你的零碎想法发展为更成熟的观点",
+  "author": "lixiaoshu125-lgtm",
+  "isDesktopOnly": false
+}

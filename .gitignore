@@ -1,0 +1,26 @@
+node_modules/
+*.map
+dist/
+coverage/
+.vitest/
+*.log
+.env
+.env.*
+!.env.example
+data.json
+*.jsonl
+*.sqlite
+*.db
+_个人认知系统/
+
+docs/superpowers/task*-review-package.txt
+docs/superpowers/task*-rereview*-package.txt
+
+*.tmp
+*.tmp-*
+*.bak
+.DS_Store
+Thumbs.db
+
+# Model verification stats (contains real model metadata)
+model-v1.1-stats.json
